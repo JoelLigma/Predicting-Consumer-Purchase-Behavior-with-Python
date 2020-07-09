@@ -29,11 +29,11 @@ Uploading project soon...
 **4) Model Building & Validation**
 - Baseline Accuracy
 - Random Forest Classifier
-- Random Forest Classifier with grid search
+- Random Forest Classifier with Grid Search and Addressing Class Imbalance
 - Neural Network Classifier
-- Neural Network Classifier with grid search
+- Neural Network Classifier with Grid Search and Addressing Class Imbalance
 - XGBoost Classifier
-- XGBoost Classifier with grid search
+- XGBoost Classifier with Grid Search and Addressing Class Imbalance
 - Model Comparison
 <br>
 
