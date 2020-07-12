@@ -6,7 +6,7 @@ Date: July 2020
 
 **Context**
 
-This project revolves around a Starbucks App Reward Program. The goal of the project is to increase the marketing promotion effectiveness. This is achieved through data analysis and the development of a classification prediction model that aims to accurately predict customers with a high likelihood of completing an offer. In the context of this project, completing an offer refers to to customer receiving a promotional offer, viewing the offer and using it to perform a purchase.
+This project revolves around a Starbucks App Reward Program. The goal of the project is to increase the marketing promotion effectiveness of the organization. This is achieved through data analysis and the development of a classification prediction model that aims to accurately predict customers with a high likelihood of completing an offer. In the context of this project, completing an offer refers to to customer receiving a promotional offer, viewing the offer and using it to perform a purchase.
 
 ## Table of Contents
 **1) Preprocessing and Combining Multiple Datasets** 
@@ -84,7 +84,7 @@ When comparing the 4 contact methods used (email, mobile, social, web), most cus
 
 **Predictive Model**
 
-We built and tuned 3 classifiaction prediction models with the goal to accurately predict our target customers. Our target customer sare defined as customers who have a high likelihood of completing an offer. The 3 models are Random Forest, Neural Network and eXtreme Gradient Boosting (XGBoost). After training and validating the model performance the following results were geneated:
+We built and tuned 3 classification prediction models with the goal to accurately predict our target customers. Our target customer sare defined as customers who have a high likelihood of completing an offer. The 3 models are Random Forest, Neural Network and eXtreme Gradient Boosting (XGBoost). After training and validating the model performance the following results were geneated:
 
 - The Random Forest Classifier showed a predictive accuracy of 87.88%
 - The Neural Network Classifier showed a predictive accuracy of 86.29%
