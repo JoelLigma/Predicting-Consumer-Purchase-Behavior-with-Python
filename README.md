@@ -31,11 +31,8 @@ This project revolves around a Starbucks App Reward Program. The goal of the pro
 **4) Model Building & Validation**
 - Baseline Accuracy
 - Random Forest Classifier
-- Random Forest Classifier with Grid Search and Addressing Class Imbalance
 - Neural Network Classifier
-- Neural Network Classifier with Grid Search and Addressing Class Imbalance
 - XGBoost Classifier
-- XGBoost Classifier with Grid Search and Addressing Class Imbalance
 - Model Comparison
 <br>
 
@@ -80,13 +77,12 @@ When comparing the 4 contact methods used (email, mobile, social, web), most cus
 - Customers contacted via mobile device: 71.2%
 - Customers contacted via web: 63.33%
 - Customers contacted via social media: 47.48%
-
-
 - Web success rate: 56.09%
 - Social media success rate: 54.31%
 - Email success rate: 50.53%
 - Mobile success rate: 50.3%
-- Predictive Model
+
+**Predictive Model**
 
 We built and tuned 3 classifiaction prediction models with the goal to accurately predict our target customers. Our target customer sare defined as customers who have a high likelihood of completing an offer. The 3 models are Random Forest, Neural Network and eXtreme Gradient Boosting (XGBoost). After training and validating the model performance the following results were geneated:
 
@@ -95,22 +91,22 @@ We built and tuned 3 classifiaction prediction models with the goal to accuratel
 - The **XBGoost** Classifier showed a predictive accuracy of **88.65%**
 Based on these results, we selected XGBoost as the final classifiaction prediction model with which we managed to predict our target customers with approximately 88.65% accuracy.
 
-**Recommendations**
+## Recommendations
 
 In order to increase the company's marketing strategy effectiveness, we derived the following 3 recommendations based on the analysis findings above.
 
-1) Predicting Target Customers
+**1) Predicting Target Customers**
 
 - Identify target customers using the XGBoost model
 
-2) Choosing the right Contact Method(s)
+**2) Choosing the right Contact Method(s)**
 
 Increase the usage of the following communication channel(s) to send offers:
 
 - Web (because it showed the highest success rate among the 4 contact methods)
 - Social media (because it showed the second highest success rate among the 4 contact methods)
 
-3) Customizing the Offer Appropriately
+**3) Customizing the Offer Appropriately**
 
 - Send out more discounts beacuse they show the highest success rate
 - Keep the amount of BOGO the same beacuse they still show a decent success rate
