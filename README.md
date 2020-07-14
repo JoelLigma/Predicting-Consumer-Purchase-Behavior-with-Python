@@ -6,10 +6,13 @@ Date: July 2020
 
 **Context**
 
-This project revolves around a Starbucks App Reward Program. The goal of the project is to increase the marketing promotion effectiveness of the organization. This is achieved through data analysis and the development of a classification prediction model that aims to accurately predict customers with a high likelihood of completing an offer. In the context of this project, completing an offer refers to a customer receiving a promotional offer, viewing the offer and using it to perform a purchase.
+This project revolved around a Starbucks App Reward Program. The goal of the project was to increase the marketing promotion effectiveness of the organization. This was achieved through data analysis and the development of a classification prediction model that aims to accurately predict customers with a high likelihood of completing an offer. In the context of this project, completing an offer refers to a customer receiving a promotional offer, viewing the offer, and using it to complete a purchase.
+
+Source: https://www.kaggle.com/blacktile/starbucks-app-customer-reward-program-data
+
 
 ## Table of Contents
-**1) Preprocessing and Combining Multiple Datasets** 
+**1) Data Preprocessing and Combining Multiple Datasets** 
 - Data Clearning
 - Feature Engineering
 - Merging, Concatenating, Joining
