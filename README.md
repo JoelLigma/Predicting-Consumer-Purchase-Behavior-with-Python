@@ -13,9 +13,9 @@ Source: https://www.kaggle.com/blacktile/starbucks-app-customer-reward-program-d
 
 ## Table of Contents
 **1) Data Preprocessing and Combining Multiple Datasets** 
-- Data Clearning
+- Data Cleaning
 - Feature Engineering
-- Merging, Concatenating, Joining
+- Merging/Concatenating/Joining
 <br>
 
 **2) Exploratory Data Analysis (EDA)**
