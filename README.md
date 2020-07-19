@@ -1,8 +1,8 @@
-# Predicting Customer Behavior with Python
+# Predictive Analytics with Python
 
 Author: Joel Ligma
 
-Date: July 2020
+Date: May 2020 - July 2020
 
 **Context**
 
@@ -12,7 +12,7 @@ Source: https://www.kaggle.com/blacktile/starbucks-app-customer-reward-program-d
 
 
 ## Table of Contents
-**1) Data Preprocessing and Combining Multiple Datasets** 
+**1) Data Preprocessing and Merging Multiple Datasets** 
 - Data Cleaning
 - Feature Engineering
 - Merging/Concatenating/Joining
@@ -47,6 +47,8 @@ Source: https://www.kaggle.com/blacktile/starbucks-app-customer-reward-program-d
 - Business Implications and Recommendations
 
 # Executive Summary of Findings
+
+In summary, the data analysis findings and the development of the classification prediction model, aiming to accurately predict customers with a high likelihood of completing an offer, resulted in the following insights described below.
 
 **Demographics**
 
@@ -89,9 +91,9 @@ When comparing the 4 contact methods used (email, mobile, social, web), most cus
 
 We built and tuned 3 classification prediction models with the goal to accurately predict our target customers. Our target customer sare defined as customers who have a high likelihood of completing an offer. The 3 models are Random Forest, Neural Network and eXtreme Gradient Boosting (XGBoost). After training and validating the model performance the following results were geneated:
 
-- The Random Forest Classifier showed a predictive accuracy of 87.88%
-- The Neural Network Classifier showed a predictive accuracy of 86.29%
-- The **XBGoost** Classifier showed a predictive accuracy of **88.65%**
+- The Random Forest Classifier showed a predictive accuracy of 96.19%
+- The Neural Network Classifier showed a predictive accuracy of 94.04%
+- The **XBGoost** Classifier showed a predictive accuracy of **96.51%**
 Based on these results, we selected XGBoost as the final classifiaction prediction model with which we managed to predict our target customers with approximately 88.65% accuracy.
 
 ## Recommendations
