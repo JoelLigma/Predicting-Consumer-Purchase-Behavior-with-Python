@@ -4,9 +4,26 @@ Author: Joel Ligma
 
 Date: May 2020 - July 2020
 
-**Context**
+**Executive Summary**
 
-This project revolved around a Starbucks App Reward Program. The goal of the project was to increase the marketing promotion effectiveness of the organization. This was achieved through data analysis and the development of a classification prediction model that aims to accurately predict customers with a high likelihood of completing an offer. In the context of this project, completing an offer refers to a customer receiving a promotional offer, viewing the offer, and using it to complete a purchase.
+*Context*
+
+This end-to-end machine learning project revolved around a Starbucks mobile app reward program. The goal of the project was to improve the marketing campaign effectiveness of the reward program to ultimately increase the organization’s profitability.
+
+This goal was achieved through the creation of a comprehensive data set derived from three data sources, subsequent data analysis and lastly the development of a classification prediction model that aims to accurately predict customers with a high likelihood of completing an offer. In the context of this project, completing an offer refers to a customer receiving a promotional offer, viewing the offer, and using it to complete a purchase. The data for this project was sourced from Kaggle, collected between the years 2014 and 2018 and contained customer demographics and campaign details.
+
+*Predictive Analytics Value for Businesses*
+
+The value of a predictive analytics model lies in analytical results which are free of emotion and bias. The model is based on statistical algorithms which can derive future outcomes based on historical data. With the help of a prediction model a firm is provided with consistent and unbiased insights that support better decision-making.
+
+*Results*
+
+In summary, the data analysis findings, and the development of the classification prediction model resulted in the following insights. Out of all customers, only 40.02% completed a purchase in the past. Women tend to react more positively toward promotions since the proportion of female customers who completed an offer is higher than male customers (46.04% and 35.69%). Despite the fact that women only make up around 40% of the total customer base in dataset, the number of women who completed an offer is almost equal to the number of male customers who did the same (13,260 women and 14,254 men). When comparing the four contact methods used (email, mobile, social, web), most customers were contacted via email and mobile device. However, both contact methods showed a lower success rate (50.53% and 50.30%) of completing an offer compared to social media (54.31%) and web (56.09%). Among the three promotional offer types (discount, BOGO, informational), discounts were the most effective (66.58%). Lastly, a total of three classification models were built and tuned with the aim to predict customers with a high likelihood of completing a purchase. The final model selected for deployment was the Extreme Gradient Boosting (XGBoost) model which showed a test accuracy of 96.51%.
+
+*Recommendations*
+
+Finally, with the aim of improving the company's marketing campaign effectiveness, the following three recommendations were derived based on the analysis findings described above. First, Starbucks should employ the XGBoost model to identify its target customers and increasingly target women. Second, once the customers are identified, the firm should increase the usage of social media and web as communication channels to send the promotional offers due to their high success rates. Third, it is advised that the promotional offer send to target customers is customized in a way which yields the highest success rate of customers using the promotion to complete a purchase. This entails making increased use of discounts, tailoring the offer’s expiration period around 7 to 10 days, and setting the minimum purchase value between $5 to $10.  
+
 
 Source: https://www.kaggle.com/blacktile/starbucks-app-customer-reward-program-data
 
@@ -46,7 +63,7 @@ Source: https://www.kaggle.com/blacktile/starbucks-app-customer-reward-program-d
 **6) Conclusion**
 - Business Implications and Recommendations
 
-# Executive Summary of Findings
+# Detailed Summary of Findings
 
 In summary, the data analysis findings and the development of the classification prediction model, aiming to accurately predict customers with a high likelihood of completing an offer, resulted in the following insights described below.
 
