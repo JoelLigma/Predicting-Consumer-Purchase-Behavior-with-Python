@@ -114,8 +114,8 @@ Increase the usage of the following communication channel(s) to send offers:
 
 **3) Customizing the Offer Appropriately**
 
-- Send out more discounts beacuse they show the highest success rate
-- Keep the amount of BOGO the same beacuse they still show a decent success rate
+- Send out more discounts because they show the highest success rate
+- Keep the amount of BOGO the same because they still show a decent success rate
 - Tailor the period an offer is valid around 7 - 10 days because this period showed the highest completed offers
 - Avoid making offers valid for only 3 - 4 days because these offers didn't result in any completed offers
 
