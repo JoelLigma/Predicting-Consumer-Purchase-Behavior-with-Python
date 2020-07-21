@@ -94,7 +94,8 @@ We built and tuned 3 classification prediction models with the goal to accuratel
 - The Random Forest Classifier showed a predictive accuracy of 96.19%
 - The Neural Network Classifier showed a predictive accuracy of 94.04%
 - The **XBGoost** Classifier showed a predictive accuracy of **96.51%**
-Based on these results, we selected XGBoost as the final classifiaction prediction model with which we managed to predict our target customers with approximately 88.65% accuracy.
+
+Based on these results, we selected XGBoost as the final classifiaction prediction model with which we managed to predict our target customers with 96.51% accuracy.
 
 ## Recommendations
 
